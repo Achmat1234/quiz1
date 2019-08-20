@@ -9,3 +9,9 @@
 :root{
     --padding-left: 35px;
 }
+
+
+body, html{
+    font-family: 'Montserrat', sans-serif;
+
+}
