@@ -31,3 +31,8 @@ $note = 'Welcome to Achmats quiz.';
 
 
     <div id="container">
+        <p><strong>Note: </strong><?= $note; ?></p>
+        <form action="result.php" method="POST">
+            <ol type="1">
+                <div id="question-container">
+                    <li>
