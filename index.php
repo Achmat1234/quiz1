@@ -53,3 +53,14 @@ $note = 'Welcome to Achmats quiz.';
                     <input type="radio" name="answer-2" value="C">India<br>
                     <input type="radio" name="answer-2" value="D">UK<br>
                 </div>
+
+
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="3">Friction can be reduced by changing from</h2>
+                    </li>
+                    <input type="radio" name="answer-3" value="A">sliding to rolling<br>
+                    <input type="radio" name="answer-3" value="B">rolling to sliding<br>
+                    <input type="radio" name="answer-3" value="C">potential energy to kinetic energy<br>
+                    <input type="radio" name="answer-3" value="D">dynamic to static<br>
+                </div>
