@@ -43,3 +43,13 @@ $note = 'Welcome to Achmats quiz.';
                     <input type="radio" name="answer-1" value="C">Kfc<br>
                     <input type="radio" name="answer-1" value="D">Ocean basket<br>
                 </div>
+
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="2">Golf player Vijay Singh belongs to which country?</h2>
+                    </li>
+                    <input type="radio" name="answer-2" value="A">USA<br>
+                    <input type="radio" name="answer-2" value="B">Fiji<br>
+                    <input type="radio" name="answer-2" value="C">India<br>
+                    <input type="radio" name="answer-2" value="D">UK<br>
+                </div>
