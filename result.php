@@ -86,3 +86,14 @@ for ($i = 1; $i <= $totalQues; $i++) {
         $answerKey = array();
 
 
+        // If the answer key exists and is readable, read it into an array.
+
+        if (file_exists($filename) && is_readable($filename)) {
+
+            $answerKey = file($filename);
+        }
+
+
+
+        return $answerKey;
+    }
