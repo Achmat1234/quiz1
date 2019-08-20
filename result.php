@@ -52,3 +52,16 @@ for ($i = 1; $i <= $totalQues; $i++) {
     <link rel="stylesheet" href="style.css">
 
 </head>
+
+
+<body>
+    <header>
+        <h1>Quiz</h1>
+    </header>
+    <hr>
+    <div id="result">
+        <p>Result:
+            <strong style="font-size:1.5em;"><?= $totalMarks; ?></strong>/<?= $totalQues; ?></p>
+    </div>
+
+</body>
