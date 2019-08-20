@@ -43,3 +43,8 @@ li{
     border-bottom-right-radius: 40px;
     border-bottom: 1px solid brown;
 }
+
+.question:hover{
+    text-decoration: underline;
+    user-select: none;
+}
