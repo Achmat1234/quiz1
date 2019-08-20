@@ -63,3 +63,10 @@ input[type=submit]{
 input[type = radio]{
     margin: 0.5%;
 }
+
+
+#result{
+    text-align: center;
+    font-size: 2em;
+    margin: 1%;
+}
