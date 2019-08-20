@@ -29,3 +29,8 @@ header{
     margin-top: 30px;
     padding-left: var(--padding-left);
 }
+
+
+li{
+    font-family: 'PT Serif', serif;
+}
