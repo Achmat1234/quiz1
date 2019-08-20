@@ -21,3 +21,8 @@ $note = 'Welcome to Achmats quiz.';
     <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Serif" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
+
+<body>
+    <header>
+        <h1><?= $sitename; ?></h1>
+    </header>
