@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     user-select: none;
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 
 }
 
@@ -19,7 +20,12 @@ body, html{
 
 header{
     padding: 20px 30px 20px var(--padding-left);
-    background-color: brown;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/wallpaper.gif");
+    position: relative;
+    ;
     color: white;
     text-decoration: underline;
 }
@@ -37,31 +43,47 @@ li{
 
 
 #question-container{
-    background-color: #f8f8f8;
+    background-color: #76c6eb8a;
     margin: 1%;
     padding: 0.5%;
     border-bottom-right-radius: 40px;
-    border-bottom: 1px solid brown;
+    border-bottom: 3px solid brown;
 }
 
 .question:hover{
     text-decoration: underline;
     user-select: none;
-}
+      color: rgb(189, 135, 53);
+      }
+
 
 input[type=submit]{
-    border: none;
-    padding: 10px 40px 10px 40px;
-    background-color: brown;
-    color: white;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 3%;
-    margin-top: 1%;
-}
-
+  display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.800rem;
+  letter-spacing: 0.3em;
+  color: rgb(247, 9, 1);
+  border-radius: 50vh;
+  padding: 0px 50px 0px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(199, 55, 29, 0.815), rgba(219, 157, 49, 0.8), rgba(194, 121, 26, 0.541), rgba(160, 113, 68, 0.384));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 3.625rem;
+  border: none;
+  border: 1px solid rgba(253, 52, 2, 0.993);
+  -webkit-border-radius: 50vh;
+  -moz-border-radius: 50vh;
+  -ms-border-radius: 50vh;
+  -o-border-radius: 50vh;
+  }
 input[type = radio]{
     margin: 0.5%;
+      opacity: 0.7;
 }
 
 
