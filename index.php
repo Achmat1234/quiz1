@@ -180,6 +180,66 @@ $note = 'Welcome to Achmats quiz.';
                     <input type="radio" name="answer-14" value="D">Ocean basket<br>
                 </div>
 
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="15">What is the most well known fast food place in Cape Town?</h2>
+                    </li>
+                    <input type="radio" name="answer-15" value="A">McDonald's<br>
+                    <input type="radio" name="answer-15" value="B">Food-Inn<br>
+                    <input type="radio" name="answer-15" value="C">Kfc<br>
+                    <input type="radio" name="answer-15" value="D">Ocean basket<br>
+                </div>
+
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="16">What is the most well known fast food place in Cape Town?</h2>
+                    </li>
+                    <input type="radio" name="answer-16" value="A">McDonald's<br>
+                    <input type="radio" name="answer-16" value="B">Food-Inn<br>
+                    <input type="radio" name="answer-16" value="C">Kfc<br>
+                    <input type="radio" name="answer-16" value="D">Ocean basket<br>
+                </div>
+
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="17">What is the most well known fast food place in Cape Town?</h2>
+                    </li>
+                    <input type="radio" name="answer-17" value="A">McDonald's<br>
+                    <input type="radio" name="answer-17" value="B">Food-Inn<br>
+                    <input type="radio" name="answer-17" value="C">Kfc<br>
+                    <input type="radio" name="answer-17" value="D">Ocean basket<br>
+                </div>
+
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="18">What is the most well known fast food place in Cape Town?</h2>
+                    </li>
+                    <input type="radio" name="answer-18" value="A">McDonald's<br>
+                    <input type="radio" name="answer-18" value="B">Food-Inn<br>
+                    <input type="radio" name="answer-18" value="C">Kfc<br>
+                    <input type="radio" name="answer-18" value="D">Ocean basket<br>
+                </div>
+
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="19">What is the most well known fast food place in Cape Town?</h2>
+                    </li>
+                    <input type="radio" name="answer-19" value="A">McDonald's<br>
+                    <input type="radio" name="answer-19" value="B">Food-Inn<br>
+                    <input type="radio" name="answer-19" value="C">Kfc<br>
+                    <input type="radio" name="answer-19" value="D">Ocean basket<br>
+                </div>
+
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="20">What is the most well known fast food place in Cape Town?</h2>
+                    </li>
+                    <input type="radio" name="answer-20" value="A">McDonald's<br>
+                    <input type="radio" name="answer-20" value="B">Food-Inn<br>
+                    <input type="radio" name="answer-20" value="C">Kfc<br>
+                    <input type="radio" name="answer-20" value="D">Ocean basket<br>
+                </div>
+
 
 
 
