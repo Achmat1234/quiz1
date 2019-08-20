@@ -23,3 +23,9 @@ header{
     color: white;
     text-decoration: underline;
 }
+
+
+#container{
+    margin-top: 30px;
+    padding-left: var(--padding-left);
+}
