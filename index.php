@@ -19,7 +19,7 @@ $note = 'Welcome to Achmats quiz.';
     <meta name="keywords" content="Achmat, Armien, Free, Quiz, Open-Source, PHP">
     <!--    styles-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Serif" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>

@@ -49,7 +49,7 @@ for ($i = 1; $i <= $totalQues; $i++) {
 
     <!--    styles-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Serif" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
