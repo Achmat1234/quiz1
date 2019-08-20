@@ -85,3 +85,14 @@ $note = 'Welcome to Achmats quiz.';
                     <input type="radio" name="answer-5" value="C">X-rays and gamma rays<br>
                     <input type="radio" name="answer-5" value="D">Ultraviolet radiation<br>
                 </div>
+
+
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="6">The ozone layer restricts</h2>
+                    </li>
+                    <input type="radio" name="answer-6" value="A">Visible light<br>
+                    <input type="radio" name="answer-6" value="B">Infrared radiation<br>
+                    <input type="radio" name="answer-6" value="C">X-rays and gamma rays<br>
+                    <input type="radio" name="answer-6" value="D">Ultraviolet radiation<br>
+                </div>
