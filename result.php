@@ -105,3 +105,13 @@ for ($i = 1; $i <= $totalQues; $i++) {
         $displayQuestions = array();
         if (file_exists($filename) && is_readable($filename)) {
             $questions = file($filename);
+
+            // Loop through each line and explode it into question and choices
+            foreach ($questions as $key => $value) {
+                $displayQuestions[] = explode(":", $value);
+            }
+        } else {
+            echo "Error finding or reading questions file.";
+        }
+        return $displayQuestions;
+    }
