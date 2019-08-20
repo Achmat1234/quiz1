@@ -149,3 +149,16 @@ $note = 'Welcome to Achmats quiz.';
                     <input type="radio" name="answer-11" value="C">Kfc<br>
                     <input type="radio" name="answer-11" value="D">Ocean basket<br>
                 </div>
+
+
+
+
+                <input name="btn" value="Submit" type="submit">
+            </ol>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
