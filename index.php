@@ -64,3 +64,13 @@ $note = 'Welcome to Achmats quiz.';
                     <input type="radio" name="answer-3" value="C">potential energy to kinetic energy<br>
                     <input type="radio" name="answer-3" value="D">dynamic to static<br>
                 </div>
+
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="4">Film and TV institute of India is located at</h2>
+                    </li>
+                    <input type="radio" name="answer-4" value="A">Pune (Maharashtra)<br>
+                    <input type="radio" name="answer-4" value="B">Rajkot (Gujarat)<br>
+                    <input type="radio" name="answer-4" value="C">Pimpri (Maharashtra)<br>
+                    <input type="radio" name="answer-4" value="D">Perambur (Tamilnadu)<br>
+                </div>
