@@ -76,3 +76,13 @@ for ($i = 1; $i <= $totalQues; $i++) {
     <title>DIC - Online Quiz Example Using PHP</title>
 
 </head>
+
+
+<body>
+    <?php
+    function readAnswerKey($filename)
+    {
+
+        $answerKey = array();
+
+
