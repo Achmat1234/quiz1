@@ -26,3 +26,5 @@ $note = 'Welcome to Achmats quiz.';
     <header>
         <h1><?= $sitename; ?></h1>
     </header>
+
+    <hr>
