@@ -116,7 +116,7 @@ for ($i = 1; $i <= $totalQues; $i++) {
         return $displayQuestions;
     }
 
-        // Take our array of exploded questions and choices, show the question and loop through the choices.
+    // Take our array of exploded questions and choices, show the question and loop through the choices.
     function displayTheQuestions($questions)
     {
         if (count($questions) > 0) {
@@ -124,3 +124,18 @@ for ($i = 1; $i <= $totalQues; $i++) {
                 echo "<b>$value[0]</b><br/><br/>";
                 // Break the choices appart into a choice array
                 $choices = explode(",", $value[1]);
+
+
+                // For each choice, create a radio button as part of that questions radio button group
+                // Each radio will be the same group name (in this case the question number) and have
+                // a value that is the first letter of the choice.
+                foreach ($choices as $value) {
+                    $letter = substr(trim($value), 0, 1);
+                    echo "<input type=\"radio\" name=\"$key\" value=\"$letter\">$value<br/>";
+                }
+                echo "<br/>";
+            }
+        } else {
+            echo "No questions to display.";
+        }
+    }
