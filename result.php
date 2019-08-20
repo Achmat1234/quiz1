@@ -156,3 +156,9 @@ for ($i = 1; $i <= $totalQues; $i++) {
         }
     }
     ?>
+
+
+    </form>
+</body>
+
+</html>
