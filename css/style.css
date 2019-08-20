@@ -15,3 +15,11 @@ body, html{
     font-family: 'Montserrat', sans-serif;
 
 }
+
+
+header{
+    padding: 20px 30px 20px var(--padding-left);
+    background-color: brown;
+    color: white;
+    text-decoration: underline;
+}
