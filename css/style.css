@@ -4,3 +4,8 @@
     user-select: none;
 
 }
+
+
+:root{
+    --padding-left: 35px;
+}
