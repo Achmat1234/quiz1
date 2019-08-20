@@ -96,3 +96,14 @@ $note = 'Welcome to Achmats quiz.';
                     <input type="radio" name="answer-6" value="C">X-rays and gamma rays<br>
                     <input type="radio" name="answer-6" value="D">Ultraviolet radiation<br>
                 </div>
+
+
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="7">What is the most well known fast food place in Cape Town?</h2>
+                    </li>
+                    <input type="radio" name="answer-7" value="A">McDonald's<br>
+                    <input type="radio" name="answer-7" value="B">Food-Inn<br>
+                    <input type="radio" name="answer-7" value="C">Kfc<br>
+                    <input type="radio" name="answer-7" value="D">Ocean basket<br>
+                </div>
