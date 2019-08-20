@@ -115,3 +115,12 @@ for ($i = 1; $i <= $totalQues; $i++) {
         }
         return $displayQuestions;
     }
+
+        // Take our array of exploded questions and choices, show the question and loop through the choices.
+    function displayTheQuestions($questions)
+    {
+        if (count($questions) > 0) {
+            foreach ($questions as $key => $value) {
+                echo "<b>$value[0]</b><br/><br/>";
+                // Break the choices appart into a choice array
+                $choices = explode(",", $value[1]);
