@@ -65,3 +65,14 @@ for ($i = 1; $i <= $totalQues; $i++) {
     </div>
 
 </body>
+
+
+</html>
+
+<html>
+
+<head>
+
+    <title>DIC - Online Quiz Example Using PHP</title>
+
+</head>
