@@ -11,3 +11,7 @@ $note = 'Welcome to Achmats quiz.';
 <html>
 
 <head>
+    <title><?= $sitename; ?></title>
+    <!--    meta-->
+    <meta name="description" content="<?= $sitedescription; ?>">
+    <meta name="author" content="Achmat Armien">
