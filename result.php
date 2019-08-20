@@ -24,3 +24,12 @@ $ans = array(
     'D',
 
 );
+
+
+for ($i = 1; $i <= $totalQues; $i++) {
+    if (isset($_POST['answer-' . $i])) {
+        if ($_POST['answer-' . $i] == $ans[$i]) {
+            $totalMarks++;
+        }
+    }
+}
