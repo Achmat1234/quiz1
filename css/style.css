@@ -34,3 +34,12 @@ header{
 li{
     font-family: 'PT Serif', serif;
 }
+
+
+#question-container{
+    background-color: #f8f8f8;
+    margin: 1%;
+    padding: 0.5%;
+    border-bottom-right-radius: 40px;
+    border-bottom: 1px solid brown;
+}
