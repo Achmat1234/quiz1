@@ -28,3 +28,6 @@ $note = 'Welcome to Achmats quiz.';
     </header>
 
     <hr>
+
+
+    <div id="container">
