@@ -33,3 +33,22 @@ for ($i = 1; $i <= $totalQues; $i++) {
         }
     }
 }
+
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Result for Quiz</title>
+
+    <!--    meta-->
+    <meta name="author" content="Achmat Armien">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Achmat, Armien, Free, Quiz, Open-Source, PHP">
+
+    <!--    styles-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
