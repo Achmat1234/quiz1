@@ -97,3 +97,11 @@ for ($i = 1; $i <= $totalQues; $i++) {
 
         return $answerKey;
     }
+    // Read the questions file and return an array of arrays (questions and choices)
+    // Each element of $displayQuestions is an array where first element is the question
+    // and second element is the choices.
+    function readQuestions($filename)
+    {
+        $displayQuestions = array();
+        if (file_exists($filename) && is_readable($filename)) {
+            $questions = file($filename);
