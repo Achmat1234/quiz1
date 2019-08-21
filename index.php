@@ -46,23 +46,23 @@ $note = 'Welcome to Achmats quiz.';
 
                 <div id="question-container">
                     <li>
-                        <h2 class="question" id="2">Golf player Vijay Singh belongs to which country?</h2>
+                        <h2 class="question" id="2">What car did Toyota release in 2019?</h2>
                     </li>
-                    <input type="radio" name="answer-2" value="A">USA<br>
-                    <input type="radio" name="answer-2" value="B">Fiji<br>
-                    <input type="radio" name="answer-2" value="C">India<br>
-                    <input type="radio" name="answer-2" value="D">UK<br>
+                    <input type="radio" name="answer-2" value="A">Focus<br>
+                    <input type="radio" name="answer-2" value="B">Mustang<br>
+                    <input type="radio" name="answer-2" value="C">Supra<br>
+                    <input type="radio" name="answer-2" value="D">Gtr<br>
                 </div>
 
 
                 <div id="question-container">
                     <li>
-                        <h2 class="question" id="3">Friction can be reduced by changing from</h2>
+                        <h2 class="question" id="3">What is used to surf with?</h2>
                     </li>
-                    <input type="radio" name="answer-3" value="A">sliding to rolling<br>
-                    <input type="radio" name="answer-3" value="B">rolling to sliding<br>
-                    <input type="radio" name="answer-3" value="C">potential energy to kinetic energy<br>
-                    <input type="radio" name="answer-3" value="D">dynamic to static<br>
+                    <input type="radio" name="answer-3" value="A">Skateboard<br>
+                    <input type="radio" name="answer-3" value="B">Boat<br>
+                    <input type="radio" name="answer-3" value="C">Jetski<br>
+                    <input type="radio" name="answer-3" value="D">Floaty<br>
                 </div>
 
                 <div id="question-container">
