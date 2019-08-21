@@ -150,24 +150,24 @@ $note = 'Welcome to Achmats quiz.';
                     <input type="radio" name="answer-11" value="D">Spring Boks<br>
                 </div>
 
-                <div id="question-container">
-                    <li>
-                        <h2 class="question" id="12">What is the most well known place in Athlone for racers to eat from during racing?</h2>
-                    </li>
-                    <input type="radio" name="answer-12" value="A">Golden Dish<br>
-                    <input type="radio" name="answer-12" value="B">Fast & Furios Foods<br>
-                    <input type="radio" name="answer-12" value="C">Wembaly<br>
-                    <input type="radio" name="answer-12" value="D">Nandos's<br>
-                </div>
+                <br id="question-container">
+                <li>
+                    <h2 class="question" id="12">What is the most well known place in Athlone for racers to eat from during racing?</h2>
+                </li>
+                <input type="radio" name="answer-12" value="A">Golden Dish<br>
+                <input type="radio" name="answer-12" value="B">Fast & Furios Foods<br>
+                <input type="radio" name="answer-12" value="C">Wembaly<br>
+                <input type="radio" name="answer-12" value="D">Nandos's<br>
+                </br>
 
                 <div id="question-container">
                     <li>
-                        <h2 class="question" id="13">What is the most well known fast food place in Cape Town?</h2>
+                        <h2 class="question" id="13">Cats loves to catch ...?</h2>
                     </li>
-                    <input type="radio" name="answer-13" value="A">McDonald's<br>
-                    <input type="radio" name="answer-13" value="B">Food-Inn<br>
-                    <input type="radio" name="answer-13" value="C">Kfc<br>
-                    <input type="radio" name="answer-13" value="D">Ocean basket<br>
+                    <input type="radio" name="answer-13" value="A">Fish<br>
+                    <input type="radio" name="answer-13" value="B">Eagles<br>
+                    <input type="radio" name="answer-13" value="C">Birds<br>
+                    <input type="radio" name="answer-13" value="D">Mouse<br>
                 </div>
 
                 <div id="question-container">
