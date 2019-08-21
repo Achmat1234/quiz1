@@ -47,6 +47,7 @@ for ($i = 1; $i <= $totalQues; $i++) {
     }
 }
 
+
 ?>
 
 <!DOCTYPE html>
@@ -75,6 +76,7 @@ for ($i = 1; $i <= $totalQues; $i++) {
     <div id="result">
         <p>Result:
             <strong style="font-size:1.5em;"><?= $totalMarks; ?></strong>/<?= $totalQues; ?></p>
+
     </div>
 
 </body>
@@ -168,6 +170,14 @@ for ($i = 1; $i <= $totalQues; $i++) {
             return "F";
         }
     }
+    if ($totalMarks <= 8) {
+        echo "try harder";
+    } else if ($totalMarks >= 8 && $totalMarks <= 15) {
+        echo "keep on working hard";
+    } else {
+        echo "well done your a top study";
+    }
+
     ?>
 
 
