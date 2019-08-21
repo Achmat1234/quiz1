@@ -60,7 +60,7 @@ $note = 'Welcome to Achmats quiz.';
                         <h2 class="question" id="3">What is used to surf with?</h2>
                     </li>
                     <input type="radio" name="answer-3" value="A">Skateboard<br>
-                    <input type="radio" name="answer-3" value="B">Boat<br>
+                    <input type="radio" name="answer-3" value="B">Surfboard<br>
                     <input type="radio" name="answer-3" value="C">Jetski<br>
                     <input type="radio" name="answer-3" value="D">Floaty<br>
                 </div>
@@ -150,15 +150,15 @@ $note = 'Welcome to Achmats quiz.';
                     <input type="radio" name="answer-11" value="D">Spring Boks<br>
                 </div>
 
-                <br id="question-container">
-                <li>
-                    <h2 class="question" id="12">What is the most well known place in Athlone for racers to eat from during racing?</h2>
-                </li>
-                <input type="radio" name="answer-12" value="A">Golden Dish<br>
-                <input type="radio" name="answer-12" value="B">Fast & Furios Foods<br>
-                <input type="radio" name="answer-12" value="C">Wembaly<br>
-                <input type="radio" name="answer-12" value="D">Nandos's<br>
-                </br>
+                <div id="question-container">
+                    <li>
+                        <h2 class="question" id="12">What is the most well known place for gatsbies in Athlone ?</h2>
+                    </li>
+                    <input type="radio" name="answer-12" value="A">Golden Dish<br>
+                    <input type="radio" name="answer-12" value="B">Fast & Furios Foods<br>
+                    <input type="radio" name="answer-12" value="C">Wembaly<br>
+                    <input type="radio" name="answer-12" value="D">Nando's<>
+                </div>
 
                 <div id="question-container">
                     <li>
@@ -182,52 +182,52 @@ $note = 'Welcome to Achmats quiz.';
 
                 <div id="question-container">
                     <li>
-                        <h2 class="question" id="15">What is the most well known fast food place in Cape Town?</h2>
+                        <h2 class="question" id="15">The sun shines in throughout the year?</h2>
                     </li>
-                    <input type="radio" name="answer-15" value="A">McDonald's<br>
-                    <input type="radio" name="answer-15" value="B">Food-Inn<br>
-                    <input type="radio" name="answer-15" value="C">Kfc<br>
-                    <input type="radio" name="answer-15" value="D">Ocean basket<br>
+                    <input type="radio" name="answer-15" value="A">Day<br>
+                    <input type="radio" name="answer-15" value="B">Night<br>
+                    <input type="radio" name="answer-15" value="C">Morning<br>
+                    <input type="radio" name="answer-15" value="D">Month<br>
                 </div>
 
                 <div id="question-container">
                     <li>
-                        <h2 class="question" id="16">What is the most well known fast food place in Cape Town?</h2>
+                        <h2 class="question" id="16">What is the name of Cape Towns president?</h2>
                     </li>
-                    <input type="radio" name="answer-16" value="A">McDonald's<br>
-                    <input type="radio" name="answer-16" value="B">Food-Inn<br>
-                    <input type="radio" name="answer-16" value="C">Kfc<br>
-                    <input type="radio" name="answer-16" value="D">Ocean basket<br>
+                    <input type="radio" name="answer-16" value="A">Cyril Ramaphosa<br>
+                    <input type="radio" name="answer-16" value="B">Luke<br>
+                    <input type="radio" name="answer-16" value="C">Chang-Lee<br>
+                    <input type="radio" name="answer-16" value="D">Mogabi<br>
                 </div>
 
                 <div id="question-container">
                     <li>
-                        <h2 class="question" id="17">What is the most well known fast food place in Cape Town?</h2>
+                        <h2 class="question" id="17">In what province did South Africa experience a Tsunami before?</h2>
                     </li>
-                    <input type="radio" name="answer-17" value="A">McDonald's<br>
-                    <input type="radio" name="answer-17" value="B">Food-Inn<br>
-                    <input type="radio" name="answer-17" value="C">Kfc<br>
-                    <input type="radio" name="answer-17" value="D">Ocean basket<br>
+                    <input type="radio" name="answer-17" value="A">Cape Town<br>
+                    <input type="radio" name="answer-17" value="B">Port Elizibath<br>
+                    <input type="radio" name="answer-17" value="C">Durban<br>
+                    <input type="radio" name="answer-17" value="D">Johannes Burg<br>
                 </div>
 
                 <div id="question-container">
                     <li>
-                        <h2 class="question" id="18">What is the most well known fast food place in Cape Town?</h2>
+                        <h2 class="question" id="18">What is the most well known site to pull infomation from on the internet?</h2>
                     </li>
-                    <input type="radio" name="answer-18" value="A">McDonald's<br>
-                    <input type="radio" name="answer-18" value="B">Food-Inn<br>
-                    <input type="radio" name="answer-18" value="C">Kfc<br>
-                    <input type="radio" name="answer-18" value="D">Ocean basket<br>
+                    <input type="radio" name="answer-18" value="A">Gumtree<br>
+                    <input type="radio" name="answer-18" value="B">ZoeWorld<br>
+                    <input type="radio" name="answer-18" value="C">Google<br>
+                    <input type="radio" name="answer-18" value="D">Instergram<br>
                 </div>
 
                 <div id="question-container">
                     <li>
-                        <h2 class="question" id="19">What is the most well known fast food place in Cape Town?</h2>
+                        <h2 class="question" id="19">What is the app everyone uses from morning to evening?</h2>
                     </li>
-                    <input type="radio" name="answer-19" value="A">McDonald's<br>
-                    <input type="radio" name="answer-19" value="B">Food-Inn<br>
-                    <input type="radio" name="answer-19" value="C">Kfc<br>
-                    <input type="radio" name="answer-19" value="D">Ocean basket<br>
+                    <input type="radio" name="answer-19" value="A">WhatsApp<br>
+                    <input type="radio" name="answer-19" value="B">Facebook<br>
+                    <input type="radio" name="answer-19" value="C">Twitter<br>
+                    <input type="radio" name="answer-19" value="D">Wechat<br>
                 </div>
 
                 <div id="question-container">
