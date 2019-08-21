@@ -121,23 +121,23 @@ $note = 'Welcome to Achmats quiz.';
 
                 <div id="question-container">
                     <li>
-                        <h2 class="question" id="9">What is the most well known fast food place in Cape Town?</h2>
+                        <h2 class="question" id="9">What does dogs eat?</h2>
                     </li>
                     <input type="radio" name="answer-9" value="A">McDonald's<br>
-                    <input type="radio" name="answer-9" value="B">Food-Inn<br>
+                    <input type="radio" name="answer-9" value="B">Montigo<br>
                     <input type="radio" name="answer-9" value="C">Kfc<br>
-                    <input type="radio" name="answer-9" value="D">Ocean basket<br>
+                    <input type="radio" name="answer-9" value="D">Fish Fingers<br>
                 </div>
 
 
                 <div id="question-container">
                     <li>
-                        <h2 class="question" id="10">What is the most well known fast food place in Cape Town?</h2>
+                        <h2 class="question" id="10">What is Christiaan Barnaard well known for?</h2>
                     </li>
-                    <input type="radio" name="answer-10" value="A">McDonald's<br>
-                    <input type="radio" name="answer-10" value="B">Food-Inn<br>
-                    <input type="radio" name="answer-10" value="C">Kfc<br>
-                    <input type="radio" name="answer-10" value="D">Ocean basket<br>
+                    <input type="radio" name="answer-10" value="A">Selling Chicken Livers<br>
+                    <input type="radio" name="answer-10" value="B">Making the best mince Curry<br>
+                    <input type="radio" name="answer-10" value="C">Heart Transplantions<br>
+                    <input type="radio" name="answer-10" value="D">First barber in Cape Town<br>
                 </div>
 
                 <div id="question-container">
