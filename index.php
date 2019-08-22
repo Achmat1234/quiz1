@@ -28,6 +28,9 @@ $note = 'This quiz is completely free.';
     </header>
 
     <hr>
+    <div>
+        <img src="images/focus.gif" alt="" width="25%" height="25%">
+    </div>
     <?php
     error_reporting(0);
 
@@ -303,6 +306,8 @@ $note = 'This quiz is completely free.';
                             <?php if ($a[$randval2][5] != "") { ?>
                             <BR>     <INPUT TYPE=radio NAME="option" VALUE="5" onClick=" Goahead (5);"><?php print $a[$randval2][5];
                                                                                                             } ?>
+
+
                             <BR>     <input type=text name=response size=8>
                         </FORM>
 
@@ -320,7 +325,7 @@ $note = 'This quiz is completely free.';
                     <TD ALIGN=Center>
                         Well Done!!! You have done so great!
                         <BR>Keep up the hardwork! YOU HAVE A BEAUTIFUL SMILE!!! <?php print $percentage; ?> %
-                        <p><A HREF="<?php print $address; ?>"></a>
+                        <p><A href="index.php">Restart</A>
                             <?php
                             } else {
                                 ?>
