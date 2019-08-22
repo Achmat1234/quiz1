@@ -30,7 +30,10 @@ $note = 'This quiz is completely free.';
     <hr>
     <div>
         <img src="images/focus.gif" alt="" width="25%" height="25%">
+
+        <img src="images/brave.gif" alt="" width="25%" height="25%">
     </div>
+
     <?php
     error_reporting(0);
 
