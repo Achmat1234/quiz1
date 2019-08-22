@@ -29,9 +29,10 @@ $note = 'This quiz is completely free.';
 
     <hr>
     <div>
-        <img src="images/focus.gif" alt="" width="25%" height="25%">
-
-        <img src="images/brave.gif" alt="" width="25%" height="25%">
+        <img src="images/focus.gif" alt="focus" width="24%" height="24%">
+        <img src="images/brave.gif" alt="brave" width="22%" height="22%">
+        <img src="images/brave.gif" alt="focus" width="22%" height="22%">
+        <img src="images/focus.gif" alt="brave" width="24%" height="24%">
     </div>
 
     <?php
@@ -273,7 +274,7 @@ $note = 'This quiz is completely free.';
 
         <CENTER>
             <H1><?php print "$title"; ?></H1>
-            <TABLE BORDER=0 CELLSPACING=5 WIDTH=500>
+            <TABLE BORDER=0 CELLSPACING=5 WIDTH=100%>
 
                 <?php if ($question < $max) { ?>
 
@@ -320,23 +321,34 @@ $note = 'This quiz is completely free.';
                 <TR>
                     <TD ALIGN=Center>
                         You have been playing to much!!! Pull up your Shocks!!!
-                        <BR>I thought much more of you then this!!! <?php print $percentage; ?> %
-                        <p><A HREF="<?php print $address; ?>"></a>
-                            <?php } else if ($percentage >= 41 && $percentage <= 70) {
-                                ?>
+                        <BR>
+                        I thought much more of you then this!!! <?php print $percentage; ?> %<br>
+                        <img src="images/lecture.gif" alt="lecture" width="20%" height="25%">
+                        <p><A href="index.php">Restart</A>
+                            <br>
+                            <br>
+                            <p><A HREF="<?php print $address; ?>"></a>
+                                <?php } else if ($percentage >= 41 && $percentage <= 70) {
+                                    ?>
                 <TR>
                     <TD ALIGN=Center>
                         Well Done!!! You have done so great!
-                        <BR>Keep up the hardwork! YOU HAVE A BEAUTIFUL SMILE!!! <?php print $percentage; ?> %
+                        <BR>Keep up the hardwork! YOU HAVE A BEAUTIFUL SMILE!!! <?php print $percentage; ?> %<br>
+                        <img src="images/fly.gif" alt="fly" width="20%" height="25%">
                         <p><A href="index.php">Restart</A>
+                            <br>
+                            <br>
                             <?php
                             } else {
                                 ?>
                 <TR>
                     <TD ALIGN=Center>
-                        The Quiz has finished
-                        <BR>Percentage of correct responses: <?php print $percentage; ?> %
+                        WOW!!! you have done great! You are a number 1 top Student!!!
+                        <BR>Percentage of correct responses: <?php print $percentage; ?> % <br>
+                        <img src="images/clap.gif" alt="clap" width="20%" height="25%">
                         <p><A href="index.php">Restart</A>
+                            <br>
+                            <br>
 
                             <?php } ?>
 
