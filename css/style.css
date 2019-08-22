@@ -1,6 +1,9 @@
 *{
       padding: 0;
       margin: 0;
+
+    background-color: firebrick;
+    color: darkturquoise;
       user-select: none;
       transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
       -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -23,6 +26,7 @@ body, html{
 
 header{
     padding: 20px 30px 20px var(--padding-left);
+        height: 175px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
