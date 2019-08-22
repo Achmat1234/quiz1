@@ -26,7 +26,7 @@ $note = 'This quiz is completely free.';
     <header>
         <h1><?= $sitename; ?></h1>
     </header>
-
+    // #############==========images====#######################//
     <hr>
     <div>
         <img src="images/focus.gif" alt="focus" width="24%" height="24%">
@@ -47,8 +47,7 @@ $note = 'This quiz is completely free.';
     $address = "index.html";
     $randomizequestions = "yes"; // set up as "no" to show questions without randomization
     //    END CONFIGURATION
-    // #########################################
-
+    // #############==========question number one====#######################//
     $a = array(
         1 => array(
             0 => "What is the most well known fast food place in Cape Town?",
@@ -58,6 +57,8 @@ $note = 'This quiz is completely free.';
             4 => "Ocean basket",
             6 => 1
         ),
+
+        // #############==========question number two====#######################//
         2 => array(
             0 => "What car did Toyota release in 2019?",
             1 => "Focus",
@@ -66,6 +67,8 @@ $note = 'This quiz is completely free.';
             4 => "Gtr",
             6 => 3
         ),
+
+        // #############==========question number 3====#######################//
         3 => array(
             0 => "What is used to surf with?",
             1 => "Skateboard",
@@ -74,6 +77,8 @@ $note = 'This quiz is completely free.';
             4 => "Floaty",
             6 => 2
         ),
+
+        // #############==========question number 4====#######################//
         4 => array(
             0 => "What is the tallest building in Cape Town?",
             1 => "Absa Building",
@@ -82,6 +87,8 @@ $note = 'This quiz is completely free.';
             4 => "Fnb Building",
             6 => 4
         ),
+
+        // #############==========question number 5====#######################//
         5 => array(
             0 => "Oshark Marine World is in ...?",
             1 => "Durban",
@@ -90,6 +97,8 @@ $note = 'This quiz is completely free.';
             4 => "Bloemfontein",
             6 => 1
         ),
+
+        // #############==========question number 6====#######################//
         6 => array(
             0 => "What is Cignal Heal well known for?",
             1 => "View",
@@ -98,6 +107,8 @@ $note = 'This quiz is completely free.';
             4 => "Braai Spots",
             6 => 1
         ),
+
+        // #############==========question number 7====#######################//
         7 => array(
             0 => "Every year Cape Town intertains kids with ... for them to get the feeling of Christmas?",
             1 => "Stars",
@@ -106,6 +117,8 @@ $note = 'This quiz is completely free.';
             4 => "Festival lights",
             6 => 4
         ),
+
+        // #############==========question number 8====#######################//
         8 => array(
             0 => "In Cape Town youngsters loves nice ...?",
             1 => "Cars",
@@ -114,6 +127,8 @@ $note = 'This quiz is completely free.';
             4 => "Blankets",
             6 => 1
         ),
+
+        // #############==========question number 9====#######################//
         9 => array(
             0 => "What does dogs eat?",
             1 => "McDonald's",
@@ -122,6 +137,8 @@ $note = 'This quiz is completely free.';
             4 => "Fish Fingers",
             6 => 2
         ),
+
+        // #############==========question number 10====#######################//
         10 => array(
             0 => "What is Christiaan Barnaard well known for?",
             1 => "First barber in Cape Town",
@@ -130,6 +147,8 @@ $note = 'This quiz is completely free.';
             4 => "Heart Transplantions",
             6 => 4
         ),
+
+        // #############==========question number 11====#######################//
         11 => array(
             0 => "What team plays rugby for South Africa?",
             1 => "Lions",
@@ -138,6 +157,8 @@ $note = 'This quiz is completely free.';
             4 => "Spring Boks",
             6 => 4
         ),
+
+        // #############==========question number 12====#######################//
         12 => array(
             0 => "What is the most well known place for gatsbies in Athlone ?",
             1 => "Golden Dish",
@@ -146,6 +167,8 @@ $note = 'This quiz is completely free.';
             4 => "Nando's",
             6 => 1
         ),
+
+        // #############==========question number 13====#######################//
         13 => array(
             0 => "Cats loves to catch ...?",
             1 => "Fish",
@@ -154,6 +177,8 @@ $note = 'This quiz is completely free.';
             4 => "Mouse",
             6 => 4
         ),
+
+        // #############==========question number 14====#######################//
         14 => array(
             0 => "What does people love to do in summer?",
             1 => "Swim",
@@ -162,6 +187,8 @@ $note = 'This quiz is completely free.';
             4 => "Scream",
             6 => 1
         ),
+
+        // #############==========question number 15====#######################//
         15 => array(
             0 => "The sun shines throughout the...?",
             1 => "Day",
@@ -170,6 +197,8 @@ $note = 'This quiz is completely free.';
             4 => "Month",
             6 => 1
         ),
+
+        // #############==========question number 16====#######################//
         16 => array(
             0 => "What is the name of South Africa's president?",
             1 => "Cyril Ramaphosa",
@@ -178,6 +207,8 @@ $note = 'This quiz is completely free.';
             4 => "Mogabi",
             6 => 1
         ),
+
+        // #############==========question number 17====#######################//
         17 => array(
             0 => "In what province did South Africa experience a Tsunami before?",
             1 => "Cape Town",
@@ -186,6 +217,8 @@ $note = 'This quiz is completely free.';
             4 => "Johannes Burg",
             6 => 3
         ),
+
+        // #############==========question number 18====#######################//
         18 => array(
             0 => "What is the most well known website to pull information from on the internet?",
             1 => "Gumtree",
@@ -194,6 +227,8 @@ $note = 'This quiz is completely free.';
             4 => "Instergram",
             6 => 3
         ),
+
+        // #############==========question number 19====#######################//
         19 => array(
             0 => "What is the app everyone uses from morning to evening?",
             1 => "WhatsApp",
@@ -202,6 +237,8 @@ $note = 'This quiz is completely free.';
             4 => "Wechat",
             6 => 1
         ),
+
+        // #############==========question number 20====#######################//
         20 => array(
             0 => "What is the place called that holds most of the sea creatures you find in the ocean?",
             1 => "Fish Tank",
@@ -213,6 +250,7 @@ $note = 'This quiz is completely free.';
     );
 
 
+    // #############==========questions php randomizequestions====#######################//
     $max = 20;
 
     $question = $_POST["question"];
@@ -232,6 +270,7 @@ $note = 'This quiz is completely free.';
         }
     }
 
+    // #############==========questions php post====#######################//
     $ok = $_POST["ok"];
 
     if ($question == 0) {
@@ -248,6 +287,7 @@ $note = 'This quiz is completely free.';
     <HEAD>
         <TITLE>Multiple Choice Questions: <?php print $title; ?></TITLE>
 
+        // #############========js and percentage response====#######################//
         <SCRIPT LANGUAGE='JavaScript'>
             function Goahead(number) {
                 if (document.percentage.response.value == 0) {
@@ -277,7 +317,7 @@ $note = 'This quiz is completely free.';
             <TABLE BORDER=0 CELLSPACING=5 WIDTH=100%>
 
                 <?php if ($question < $max) { ?>
-
+                // #############==========questions php percentage ====#######################//
                 <TR>
                     <TD ALIGN=RIGHT>
                         <FORM METHOD=POST NAME="percentage" ACTION="<?php print $URL; ?>">
@@ -293,7 +333,7 @@ $note = 'This quiz is completely free.';
                         <HR>
                     </TD>
                 </TR>
-
+                // #############==========questions php question" ACTION input====#######################//
                 <TR>
                     <TD>
                         <FORM METHOD=POST NAME="question" ACTION="">
@@ -314,7 +354,7 @@ $note = 'This quiz is completely free.';
 
                             <BR>     <input type=text name=response size=8>
                         </FORM>
-
+                        // #############==========questions comments====#######################//
                         <?php
                         } else if ($percentage <= 40) {
                             ?>
