@@ -288,7 +288,7 @@
                             document.percentage.question.value++
                         }
                     }
-                    if (number == <?php print $a[$randval2][6]; ?>) {
+                    if (number == "<?php echo $a[$randval2][5]; ?>") {
                         document.question.response.value = "You sure?"
                     } else {
                         document.question.response.value = "You sure?"
