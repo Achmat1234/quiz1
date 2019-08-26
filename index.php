@@ -239,6 +239,7 @@
 
         #############==========questions php randomizequestions====#######################//
         $max = 20;
+        $randval2 = 0;
 
         $question = $_POST["question"];
 
@@ -278,7 +279,7 @@
             <script LANGUAGE='JavaScript'>
                 function Goahead(number) {
                     if (document.percentage.response.value == 0) {
-                        if (number == <?php print $a[$randval2][6]; ?>) {
+                        if (number == "<?php echo $a[$randval2][5]; ?>") {
                             document.percentage.response.value = 1
                             document.percentage.question.value++
                             document.percentage.ok.value++
